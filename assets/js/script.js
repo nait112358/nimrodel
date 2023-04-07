@@ -107,3 +107,16 @@ closeModal3.addEventListener('click', () => {
     modal3.close();
 })
 
+
+const openModalAbout = document.querySelector('#about');
+const modalAbout = document.querySelector('#about-modal');
+const closeModalAbout = document.querySelector('.modal-close');
+
+openModalAbout.addEventListener('click', () => {
+    modalAbout.showModal();
+})
+
+closeModalAbout.addEventListener('click', () => {
+    modalAbout.close();
+})
+
