@@ -1,0 +1,43 @@
+.navbar {
+    background-image: url(../img/fondo.jpg);
+    background-size: auto 200%;
+
+    /* Workaround for some mobile browsers */
+    min-height: 100%;
+  }
+  header p {
+      text-decoration: overline;
+  }
+
+  main img {
+    height:250px;
+}
+
+dialog img {
+  height: 500px;
+
+}
+dialog {  
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+}
+h3 {
+  text-align: center;
+}
+footer {
+  background-image: url(../img/fondo.jpg);
+  background-size:contain;
+  background-position: center;
+  background-color: black;
+  
+
+
+  /* Workaround for some mobile browsers */
+  min-height: 100%;
+}
+
+#contact-form, #reservation {
+  display:none;
+}
